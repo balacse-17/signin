@@ -1,0 +1,46 @@
+section{
+    border: 1px solid rgb(59, 54, 54);
+    width: 300px;
+    height: 400 px;
+    background-color: rgb(59, 54, 54);
+    border-radius: 8px;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    color: azure;
+}
+button{
+    background-color: aquamarine;
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.inline-input {
+    color: azure;
+    border: none;
+    border-bottom: 1px solid azure;
+    outline: none;
+    background: none;
+    width: 200px;
+}
+.inline-input::placeholder{
+    color: azure;
+    opacity: 0.5;
+}
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+div{
+    margin: 25px;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
