@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+}
+.fun{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(black,rgb(64, 25, 100),rgb(138, 20, 255));
+}
+.fun .element:hover{
+    transform: scale(0.9);
+    transition : all 0.3s ease-in-out;
+    /*box-shadow: 0 4px 8px rgba(red, green, blue, alpha);*/
+    border-radius: 10px;
+}

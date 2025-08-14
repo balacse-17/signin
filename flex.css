@@ -1,7 +1,15 @@
-nav{
-    background-color: black;
+html {
+    scroll-behavior:smooth;
 }
-img{
+body{
+    margin: 0px;
+    background-color: black;
+    
+}
+nav{
+    background-image: linear-gradient(black,rgb(138, 20, 255));
+}
+.god{
     display: inline-flex;
     margin-left: 40px;
     margin-top: 20px;
@@ -11,16 +19,28 @@ img{
     border-radius: 30px;
 }
 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 35px;
     display: inline-flex;
     justify-content:flex-end;
-    color: darkviolet;
+    color: azure;
+    font-size: larger;
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 35px;
+    display: inline-flex;
+    justify-content:flex-end;
+    color: azure;
+    font-size: larger;
+    list-style-type: disc; /* default bullet style */
+    padding-left: 40px;    /* space before bullets */
+    line-height: 1.6;  
 }
 .Nav{
     color: white;
     text-decoration: none;
     margin-left: 20px;
-    
 }
 .icon{
     display: inline;
@@ -48,12 +68,120 @@ p{
     justify-content: space-between;
     flex-direction: row ;
 }
-.about{
-    display: inline;
-    margin-top: auto;
-    margin-bottom: auto;
-}
 .Profile{
     display: inline-flex;
     align-items: center;
+}
+h1{
+    font-size: 75px;
+    color: rgb(138, 20, 255);
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 20px;
+    color: rgb(138, 20, 255);
+    margin-bottom: 300px;
+}
+
+.About{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Skill{
+    color: azure;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: black;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+.Skill h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(138, 20, 255);
+}
+
+.Skill table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Skill th, 
+.Skill td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.Skill th {
+    background: rgb(138, 20, 255);
+    color: azure;
+}
+
+.Skill tr:hover {
+    background: rgb(180, 124, 237);
+    transition: 0.3s;
+}
+.contact {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: black;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.contact h1 {
+    margin-bottom: 10px;
+    color: rgb(138, 20, 255);
+}
+
+.contact p {
+    margin: 8px 0;
+}
+
+.contact-info a {
+    color: azure;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.image-container {
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.image-container img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px; 
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.nan{
+    font-size: 30px;
 }
