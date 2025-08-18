@@ -1,0 +1,13 @@
+.box{
+    height: 200px;
+    background-color: purple;
+}
+.ball{
+    height: 200px;
+    background-color: aqua;
+}
+.container{
+    gap: 1%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr)  ;
+}

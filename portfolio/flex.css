@@ -10,7 +10,7 @@ nav{
     background-image: linear-gradient(black,rgb(138, 20, 255));
 }
 .god{
-    display: inline-flex;
+    display: grid;
     margin-left: 40px;
     margin-top: 20px;
     margin-bottom: 10px;
